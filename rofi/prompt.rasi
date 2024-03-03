@@ -1,0 +1,83 @@
+configuration {
+	font:	"CaskaydiaCove Nerd Font Medium 11";
+  show-icons: true;
+	icon-theme: "Noto Emoji Color 11";
+  disable-history: false;
+  fullscreen: false;
+	hide-scrollbar:	true;
+	sidebar-mode:	false;
+}
+
+@import "colors.rasi"
+
+window {
+  transparency: "real";
+  background-color: @bg;
+  text-color: @fg;
+	border:	0px;
+	border-color:	@bd;
+  border-radius: 10px;
+	width:	584px;
+  location: center;
+  x-offset: 0;
+  y-offset: 0;
+}
+
+prompt {
+  enabled: true;
+	padding: 0px 0px 0px 12px;
+	background-color:	@bga;
+	text-color: @fg;
+}
+
+textbox-prompt-colon {
+	padding: 0px 0px 0px 8px;
+	background-color: @bga;
+	text-color: @ac;
+	expand: false;
+	str: "✨";
+	font:	"Noto Emoji Color 11";
+}
+
+textbox {
+  background-color: @al;
+  text-color: @bd;
+}
+
+message {
+  padding: 20px;
+  children: [textbox];
+  background-color: @bg;
+}
+
+inputbar {
+	children: [ textbox-prompt-colon, prompt, entry ];
+  background-color: @bga;
+  text-color: @fg;
+  expand: false;
+	border:	0px 0px 1px 0px;
+  border-radius: 0px;
+	border-color:	@bt;
+  margin: 0px;
+  padding: 20px 10px 20px 10px;
+}
+
+entry {
+  background-color: @al;
+  text-color: @fg;
+  placeholder-color: @bd;
+  expand: true;
+  horizontal-align: 0;
+  vertical-align: 0.4;
+  padding: 0px 0px 0px 0px;
+  blink: true;
+}
+
+mainbox {
+  background-color: @al;
+	border:	0px;
+  border-radius: 0px;
+	border-color:	@ac;
+  spacing:	0px;
+  padding: 0px;
+}

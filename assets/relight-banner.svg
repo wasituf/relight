@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient12">
+      <stop
+         style="stop-color:#b64040;stop-opacity:1;"
+         offset="0"
+         id="stop11" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0.79337537;"
+         offset="1"
+         id="stop12" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient6">
+      <stop
+         style="stop-color:#e20200;stop-opacity:1;"
+         offset="0"
+         id="stop7" />
+      <stop
+         style="stop-color:#e20200;stop-opacity:0.18296529;"
+         offset="1"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient6"
+       id="linearGradient8"
+       x1="936.42499"
+       y1="536.2074"
+       x2="936.42499"
+       y2="334.80737"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.5539978e-4,-2.6571655e-5)" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter11"
+       x="-6.0338992e-07"
+       y="-2.4393247e-06"
+       width="1.0000012"
+       height="1.0000049">
+      <feGaussianBlur
+         stdDeviation="0.0002047"
+         result="result3"
+         id="feGaussianBlur9" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 50 0 "
+         result="result7"
+         id="feColorMatrix9" />
+      <feComposite
+         operator="in"
+         in2="SourceGraphic"
+         result="result9"
+         id="feComposite9" />
+      <feComposite
+         in2="result7"
+         operator="arithmetic"
+         in="result9"
+         k1="0.5"
+         k3="0.5"
+         result="result1"
+         id="feComposite10"
+         k2="0"
+         k4="0" />
+      <feBlend
+         in2="result1"
+         result="result5"
+         mode="screen"
+         in="SourceGraphic"
+         id="feBlend10" />
+      <feBlend
+         in2="result5"
+         mode="darken"
+         in="result5"
+         result="result6"
+         id="feBlend11" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result8"
+         id="feComposite11" />
+    </filter>
+    <linearGradient
+       xlink:href="#linearGradient12"
+       id="linearGradient11"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1.5539978e-4,-2.6571655e-5)"
+       x1="936.42499"
+       y1="536.2074"
+       x2="936.42499"
+       y2="334.80737" />
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter14"
+       x="-6.735741e-06"
+       y="-2.7230584e-05"
+       width="1.0000135"
+       height="1.0000545">
+      <feGaussianBlur
+         stdDeviation="0.0022850998"
+         result="result3"
+         id="feGaussianBlur12" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 50 0 "
+         result="result7"
+         id="feColorMatrix12" />
+      <feComposite
+         operator="in"
+         in2="SourceGraphic"
+         result="result9"
+         id="feComposite12" />
+      <feComposite
+         in2="result7"
+         operator="arithmetic"
+         in="result9"
+         k1="0.5"
+         k3="0.5"
+         result="result1"
+         id="feComposite13"
+         k2="0"
+         k4="0" />
+      <feBlend
+         in2="result1"
+         result="result5"
+         mode="screen"
+         in="SourceGraphic"
+         id="feBlend13" />
+      <feBlend
+         in2="result5"
+         mode="darken"
+         in="result5"
+         result="result6"
+         id="feBlend14" />
+      <feComposite
+         in2="SourceGraphic"
+         operator="in"
+         result="result8"
+         id="feComposite14" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       id="filter17"
+       x="-0.0060752888"
+       y="-0.024560591"
+       width="1.0121506"
+       height="1.0491212">
+      <feGaussianBlur
+         stdDeviation="2.0587563"
+         id="feGaussianBlur17" />
+    </filter>
+  </defs>
+  <g
+     id="layer1">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke-width:1.0281"
+       id="rect1"
+       width="1920"
+       height="1080"
+       x="-9.6367359e-14"
+       y="2.1316282e-14"
+       ry="0" />
+    <g
+       id="g15"
+       transform="matrix(1.3989496,0,0,1.3989496,-382.99168,-159.951)">
+      <g
+         id="g17"
+         style="mix-blend-mode:normal;filter:url(#filter17)"
+         transform="translate(0,-3.4750595)">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:200px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:0.509479;fill:url(#linearGradient11);fill-opacity:1;fill-rule:nonzero;filter:url(#filter14)"
+           x="538.90009"
+           y="495.60736"
+           id="text11"
+           transform="matrix(1,0,0,-1,3.2298913e-6,992.41297)"><tspan
+             id="tspan17"
+             style="fill:url(#linearGradient11)"
+             x="538.90009"
+             y="495.60736">ReLight</tspan></text>
+      </g>
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke-width:0.99385"
+         id="rect17"
+         width="1920"
+         height="533.37872"
+         x="-9.6367359e-14"
+         y="2.1316282e-14"
+         transform="matrix(0.71482204,0,0,0.71482204,273.77089,114.3365)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:200px;font-family:Montserrat;-inkscape-font-specification:'Montserrat, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:url(#linearGradient8);fill-opacity:1;fill-rule:nonzero;filter:url(#filter11)"
+         x="538.90009"
+         y="495.60736"
+         id="text1"><tspan
+           id="tspan16"
+           style="fill:url(#linearGradient8)"
+           x="538.90009"
+           y="495.60736">ReLight</tspan></text>
+    </g>
+  </g>
+</svg>

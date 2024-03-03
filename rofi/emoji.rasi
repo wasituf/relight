@@ -1,0 +1,118 @@
+configuration {
+	font:	"CaskaydiaCove Nerd Font Medium 11";
+  show-icons: true;
+	icon-theme: "Noto Color Emoji 11";
+  disable-history: false;
+  fullscreen: false;
+	hide-scrollbar:	true;
+	sidebar-mode:	false;
+}
+
+@import "colors.rasi"
+
+window {
+  transparency: "real";
+  background-color: @bg;
+  text-color: @fg;
+	border:	0px 0px 0px 0px;
+	border-color:	@bd;
+  border-radius: 10px;
+	width:	584px;
+  location: center;
+  x-offset: 0;
+  y-offset: 0;
+}
+
+prompt {
+  enabled: true;
+	padding: 0px 0px 0px 12px;
+	background-color:	@bga;
+	text-color: @fg;
+}
+
+textbox-prompt-colon {
+	padding: 0px 0px 0px 8px;
+	background-color: @bga;
+	text-color: @ac;
+	expand: false;
+	str: "✨";
+	font:	"Noto Emoji Color 11";
+}
+
+entry {
+  background-color: @al;
+  text-color: @fg;
+  placeholder-color: @bd;
+  expand: true;
+  horizontal-align: 0;
+  vertical-align: 0.4;
+  placeholder: "ReLight: Feel the Magic...";
+  padding: 0px 0px 0px 0px;
+  blink: true;
+}
+
+inputbar {
+	children: [ textbox-prompt-colon, prompt, entry ];
+  background-color: @bga;
+  text-color: @fg;
+  expand: false;
+	border:	0px 0px 1px 0px;
+  border-radius: 0px;
+	border-color:	@bt;
+  margin: 0px;
+  padding: 20px 10px 20px 10px;
+}
+
+listview {
+  background-color: @al;
+  padding: 12px;
+  columns: 8;
+  lines: 6;
+  spacing: 12px;
+  cycle: true;
+  dynamic: true;
+  flow: horizontal;
+}
+
+mainbox {
+  background-color: @al;
+	border:	0px;
+  border-radius: 0px;
+	border-color:	@ac;
+  children: [ inputbar, listview ];
+  spacing:	0px;
+  padding: 0px;
+}
+
+element {
+  background-color: @al;
+  text-color: @fg;
+  orientation: horizontal;
+  border-radius: 0px;
+	padding: 13px 0px 13px -13px;
+}
+
+element-icon {
+  background-color: transparent;
+  text-color:	inherit;
+  size: 24px;
+  border: 0px;
+}
+
+element-text {
+  background-color: transparent;
+  text-color:	inherit;
+  expand: true;
+  horizontal-align: 0;
+  vertical-align: 0.5;
+  margin: 0px 2.5px 0px 2.5px;
+  font: "CaskaydiaCove Nerd Font Medium 18";
+}
+
+element selected {
+  background-color: @se;
+  text-color: @bg;
+	border:	0px 0px 0px 0px;
+  border-radius: 10px;
+  border-color:	@ac;
+}
